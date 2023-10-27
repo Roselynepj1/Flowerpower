@@ -1,0 +1,125 @@
+@import url('flex.css');
+@import url('utility.css');
+@import url('skeleton.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset the body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+.logo {
+  height: 50px;
+}
+
+.border-bottom-colored {
+  border-bottom: 2px solid tomato;
+}
+
+.relative {
+  position: relative;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+
+main {
+  flex: 1;
+}
+footer {
+  flex-shrink: -1;
+}
+.h-600 {
+  height: 600px;
+}
+
+.img-same-195 {
+  width: 195px;
+  height: 225px;
+}
+.same-jackets {
+  width: 230px;
+  height: 350px;
+}
+
+.size-132 {
+  width: 132px;
+  height: 132px;
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+}
+
+.banner {
+  height: 550px;
+}
+.testominial-min-height {
+  min-height: 150px !important;
+}
+
+.product-link {
+  text-decoration: none !important;
+}
+body {
+  font-size: 16px;
+}
+@media screen and (max-width: 576px) {
+  .banner {
+    height: 500px;
+  }
+}
+
+#showFilter {
+  display: none;
+}
+#showFilter:hover {
+  color:orangered;
+}
+#filterForm {
+  display: block;
+}
+@media screen and (max-width: 577px) {
+  #showFilter {
+    display: block;
+  }
+  #filterForm {
+    display: none;
+  }
+}
+@media screen and (min-width: 577px) {
+}
+
+@media screen and (min-width: 769px) {
+}
+@media screen and (min-width: 1400px) {
+  html {
+    display: flex;
+    justify-content: center;
+  }
+  body {
+    width: 1500px !important;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Nav fix */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /* screens in the range 320px to 480px */
+  nav {
+    gap: 12px !important;
+  }
+}
+
+/* Animations */
+@keyframes slideInUp {
+  to {
+    transform: translateX(-500%);
+  }
+}

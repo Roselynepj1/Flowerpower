@@ -1,0 +1,51 @@
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+
+.skeleton-text {
+  width: 100%;
+  height: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.skeleton-text__body {
+  width: 75%;
+}
+
+.skeleton-footer {
+  width: 30%;
+}
+
+.product-skeleton{
+  height: 300px;
+}
+
+.product-price{
+  width:100%;
+  padding: .1em;
+  height: 30px;
+  margin:0;
+}
+.product-btn{
+  width:100%;
+  padding: 2.4px;
+  height: 30px;
+  border: none;
+}
+
+.product-icon{
+  height: 30px;
+  width:30px; 
+  border-radius: 50%;
+  padding:0;
+}
