@@ -39,7 +39,7 @@ function addToCart(product) {
   cartProducts.push({
     id: product.id,
     total: 1,
-    price: formatCartPrice(product.prices.price, product.prices),
+    price: formatPrice(product.prices.price, product.prices),
   })
   //save to local storage
   localStorage.setItem('cartProducts', JSON.stringify(cartProducts))
