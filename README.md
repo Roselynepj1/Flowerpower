@@ -2,7 +2,7 @@
 
   
 
-![Rainy Days Jackets](https://picsum.photos/700/300)
+![Rainy Days Jackets](https://github.com/Roselynepj1/Flowerpower/blob/master/images/rainy_days_jackets.png)
  
 ## Overview 
 Step into a world of style and functionality with Rainy Days, your go-to destination for high-quality jackets. Explore a diverse collection that blends fashion with durability, ensuring you stay both trendy and protected. Embrace the elements in style with our curated selection of jackets designed for every rainy occasion. 
